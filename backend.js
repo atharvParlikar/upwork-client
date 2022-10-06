@@ -14,5 +14,5 @@ app.get("/:name/:email/", (req, res) => {
 })
 
 app.listen(4000, () => {
-  console.log("Hello world");
+  console.log("server live at port 4000");
 })
